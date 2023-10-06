@@ -10,7 +10,7 @@ function MainMenu() {
     setLoading(true);
     setError(null);
 
-    fetch('https://comfy-genie-148eef.netlify.app/')
+    fetch('https://ill-tan-elk-vest.cyclic.app')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
