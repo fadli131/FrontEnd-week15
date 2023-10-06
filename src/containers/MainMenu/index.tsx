@@ -10,7 +10,7 @@ function MainMenu() {
     setLoading(true);
     setError(null);
 
-    fetch('http://localhost:3002/')
+    fetch('https://ill-tan-elk-vest.cyclic.app/')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
